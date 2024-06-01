@@ -24,4 +24,14 @@
               image: nginx:1.14.2
               ports:
               - containerPort: 80
+
+## apply the command 
+
+     kubectl apply -f deployment.yaml
+## check for the apply 
+it will create replica set 
+     kubectl get deploy
+## for replica set
+
+     kubectl get rs
        
