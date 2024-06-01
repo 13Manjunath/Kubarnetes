@@ -20,12 +20,14 @@
         kubectl get pods
   
  ---> to check entire details
-        kubectl get pods -o wide
+ 
+       kubectl get pods -o wide
 
  # login to kubernetes cluster
         minikube ssh
 
  ---> after the login
+ 
         curl --> ip adress
 
 
@@ -33,5 +35,6 @@
         kubectl describe pod (name of the pod)
 
 OR
+       
         kubectl logs (name of the pod)
   
