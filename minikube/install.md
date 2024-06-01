@@ -3,17 +3,18 @@
   --> install minikube from the browser--->
 
 # apply the command
-      minikube start
+     minikube start
   ----> OR
-      minikube start --memory=4096 --driver=hyperkit
+  
+     minikube start --memory=4096 --driver=hyperkit
 
 # check
-       kubectl get nodes
+     kubectl get nodes
   
 # creating pod --> from browser copy the things of pod.yaml
  -----> apply command
  
-        kubectl create -f pod.yaml
+       kubectl create -f pod.yaml
 
 # to check pods
         kubectl get pods
