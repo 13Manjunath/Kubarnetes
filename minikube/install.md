@@ -12,24 +12,25 @@
   
 # creating pod --> from browser copy the things of pod.yaml
  -----> apply command
-       kubectl create -f pod.yaml
+ 
+        kubectl create -f pod.yaml
 
 # to check pods
-       kubectl get pods
+        kubectl get pods
   
  ---> to check entire details
-       kubectl get pods -o wide
+        kubectl get pods -o wide
 
  # login to kubernetes cluster
-       minikube ssh
+        minikube ssh
 
  ---> after the login
-      curl --> ip adress
+        curl --> ip adress
 
 
  # checking errors and debug
-       kubectl describe pod (name of the pod)
+        kubectl describe pod (name of the pod)
 
 OR
-       kubectl logs (name of the pod)
+        kubectl logs (name of the pod)
   
